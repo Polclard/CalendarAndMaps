@@ -6,7 +6,7 @@ class DirectionsService {
   static const String _baseUrl = 'https://maps.googleapis.com/maps/api/directions/json';
 
   // Replace with your API Key
-  static const String _apiKey = 'AIzaSyCAbEx0FEGZ_Dm9sX6jibDQCLpKd6Of-gY';
+  static const String _apiKey = '';
 
   Future<List<LatLng>> getRoute(LatLng origin, LatLng destination) async {
     final response = await http.get(
